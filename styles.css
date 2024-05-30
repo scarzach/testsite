@@ -27,6 +27,11 @@
     text-align: center;
 }
 
+.about {
+    text-align: center;
+    font-family: Arial;
+}
+
 a {
     color: rgb(0, 0, 255);
 }
