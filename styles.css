@@ -99,7 +99,7 @@ hr {
     position: relative;
   }
   
-  .img {
+  /*.img {
     height: 100px;
     position: absolute;
     left: 0;
@@ -111,15 +111,14 @@ hr {
   
   .img:hover {
     transform: scale(3);
-    /* on hover, the path gets a bit shorter & flattened & shifted to left/bottom a bit for nicer movement */
+    /* on hover, the path gets a bit shorter & flattened & shifted to left/bottom a bit for nicer movement 
     offset-path: path('m 5 65 q 45-0 90-0 t 90 0 90 0 90-0 90 0');
     box-shadow: 3px 4px 10px #0006;
     /* ensures that image gets on top of stack at the start of "popping" animation
-       and gets back at the end of getting back. With smaller value, 2 different transitions would be needed */
+       and gets back at the end of getting back. With smaller value, 2 different transitions would be needed 
     z-index: 999;
   }
-  
-  /* 3 images 
+   3 images 
   .img:nth-last-child(3):first-child {
     offset-distance: 17%;
   }
