@@ -111,7 +111,7 @@ hr {
     z-index: 999;
   }
   
-  /* 3 images */
+  /* 3 images 
   .img:nth-last-child(3):first-child {
     offset-distance: 17%;
   }
@@ -122,7 +122,7 @@ hr {
     offset-distance: 81%;
   }
   
-  /* 4 images */
+  /* 4 images 
   .img:nth-last-child(4):first-child {
     offset-distance: 10%;
   }
@@ -136,7 +136,7 @@ hr {
     offset-distance: 90%;
   }
   
-  /* 5 images */
+  /* 5 images 
   .img:nth-last-child(5):first-child {
     offset-distance: 0%;
   }
@@ -152,7 +152,7 @@ hr {
   .img:last-child:nth-child(5) {
     offset-distance: 100%;
   }
-
+*/
 a {
     color: rgb(0, 0, 255);
 }
