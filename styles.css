@@ -90,9 +90,8 @@ hr {
   width: 5%;
   padding: auto;
   margin-left: 47.2%;
- /* background-color: tan;
- */ display: inline-block;
-
+  display: inline-block;
+}
 .p {
     height: 200px;
     width: 500px;
